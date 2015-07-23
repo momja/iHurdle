@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  iHurdle
+//  The Athlete
 //
-//  Created by Maxwell James Omdal on 7/16/15.
+//  Created by Maxwell James Omdal on 4/4/15.
 //  Copyright (c) 2015 Maxwell James Omdal. All rights reserved.
 //
 

@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C947AF731B58389B005877C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF721B58389B005877C2 /* AppDelegate.swift */; };
-		C947AF751B58389B005877C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C947AF741B58389B005877C2 /* GameScene.sks */; };
-		C947AF771B58389B005877C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF761B58389B005877C2 /* GameScene.swift */; };
-		C947AF791B58389B005877C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF781B58389B005877C2 /* GameViewController.swift */; };
+		C90810101B61238E00EBF4EC /* HealthContainer.png in Resources */ = {isa = PBXBuildFile; fileRef = C908100F1B61238E00EBF4EC /* HealthContainer.png */; };
 		C947AF7C1B58389B005877C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C947AF7A1B58389B005877C2 /* Main.storyboard */; };
 		C947AF7E1B58389B005877C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C947AF7D1B58389B005877C2 /* Images.xcassets */; };
 		C947AF811B58389B005877C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C947AF7F1B58389B005877C2 /* LaunchScreen.xib */; };
 		C947AF8D1B58389C005877C2 /* iHurdleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF8C1B58389C005877C2 /* iHurdleTests.swift */; };
+		C947AF971B5838F1005877C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF961B5838F1005877C2 /* AppDelegate.swift */; };
+		C947AF991B583907005877C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF981B583907005877C2 /* GameScene.swift */; };
+		C947AF9B1B58390E005877C2 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF9A1B58390E005877C2 /* GameOverScene.swift */; };
+		C947AF9D1B583915005877C2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947AF9C1B583915005877C2 /* GameViewController.swift */; };
+		C947AFA71B58392E005877C2 /* prstartk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C947AF9E1B58392E005877C2 /* prstartk.ttf */; };
+		C947AFA81B58392E005877C2 /* Jump2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C947AF9F1B58392E005877C2 /* Jump2.wav */; };
+		C947AFA91B58392E005877C2 /* Hit_Hurt2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C947AFA01B58392E005877C2 /* Hit_Hurt2.wav */; };
+		C947AFAA1B58392E005877C2 /* Game_Over_Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C947AFA11B58392E005877C2 /* Game_Over_Sound.wav */; };
+		C947AFAD1B58392E005877C2 /* gamebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C947AFA41B58392E005877C2 /* gamebackground.png */; };
+		C947AFAE1B58392E005877C2 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C947AFA51B58392E005877C2 /* Player.atlas */; };
+		C947AFB11B58398F005877C2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C947AFB01B58398F005877C2 /* GameKit.framework */; };
+		C947AFB31B5839BD005877C2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C947AFB21B5839BD005877C2 /* iAd.framework */; };
+		C947AFB51B58829B005877C2 /* Player_Anim_Jump.png in Resources */ = {isa = PBXBuildFile; fileRef = C947AFB41B58829B005877C2 /* Player_Anim_Jump.png */; };
+		C947AFB71B5882B7005877C2 /* Anim_Hurdle.png in Resources */ = {isa = PBXBuildFile; fileRef = C947AFB61B5882B7005877C2 /* Anim_Hurdle.png */; };
+		C97BDB461B5C2CEA00578A0E /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = C97BDB451B5C2CEA00578A0E /* box.png */; };
+		C990C9C51B60713E00055225 /* Shoe.png in Resources */ = {isa = PBXBuildFile; fileRef = C990C9C41B60713E00055225 /* Shoe.png */; };
+		C990C9C71B60746500055225 /* Jump.png in Resources */ = {isa = PBXBuildFile; fileRef = C990C9C61B60746500055225 /* Jump.png */; };
+		C990C9C91B60769B00055225 /* HighscoreBox.png in Resources */ = {isa = PBXBuildFile; fileRef = C990C9C81B60769B00055225 /* HighscoreBox.png */; };
+		C9C0FDEF1B61A3FC002B6EED /* HealthBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C0FDEE1B61A3FC002B6EED /* HealthBar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +44,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C908100F1B61238E00EBF4EC /* HealthContainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthContainer.png; sourceTree = "<group>"; };
 		C947AF6D1B58389B005877C2 /* iHurdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHurdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C947AF711B58389B005877C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C947AF721B58389B005877C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C947AF741B58389B005877C2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C947AF761B58389B005877C2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C947AF781B58389B005877C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C947AF7B1B58389B005877C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C947AF7D1B58389B005877C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C947AF801B58389B005877C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C947AF861B58389C005877C2 /* iHurdleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHurdleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C947AF8B1B58389C005877C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C947AF8C1B58389C005877C2 /* iHurdleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHurdleTests.swift; sourceTree = "<group>"; };
+		C947AF961B5838F1005877C2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C947AF981B583907005877C2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C947AF9A1B58390E005877C2 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		C947AF9C1B583915005877C2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C947AF9E1B58392E005877C2 /* prstartk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstartk.ttf; sourceTree = "<group>"; };
+		C947AF9F1B58392E005877C2 /* Jump2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jump2.wav; sourceTree = "<group>"; };
+		C947AFA01B58392E005877C2 /* Hit_Hurt2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hit_Hurt2.wav; sourceTree = "<group>"; };
+		C947AFA11B58392E005877C2 /* Game_Over_Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Game_Over_Sound.wav; sourceTree = "<group>"; };
+		C947AFA41B58392E005877C2 /* gamebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamebackground.png; sourceTree = "<group>"; };
+		C947AFA51B58392E005877C2 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
+		C947AFB01B58398F005877C2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C947AFB21B5839BD005877C2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C947AFB41B58829B005877C2 /* Player_Anim_Jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_Anim_Jump.png; sourceTree = "<group>"; };
+		C947AFB61B5882B7005877C2 /* Anim_Hurdle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anim_Hurdle.png; sourceTree = "<group>"; };
+		C97BDB451B5C2CEA00578A0E /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		C990C9C41B60713E00055225 /* Shoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shoe.png; sourceTree = "<group>"; };
+		C990C9C61B60746500055225 /* Jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jump.png; sourceTree = "<group>"; };
+		C990C9C81B60769B00055225 /* HighscoreBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighscoreBox.png; sourceTree = "<group>"; };
+		C9C0FDEE1B61A3FC002B6EED /* HealthBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthBar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C947AFB31B5839BD005877C2 /* iAd.framework in Frameworks */,
+				C947AFB11B58398F005877C2 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,8 @@
 		C947AF641B58389B005877C2 = {
 			isa = PBXGroup;
 			children = (
+				C947AFB21B5839BD005877C2 /* iAd.framework */,
+				C947AFB01B58398F005877C2 /* GameKit.framework */,
 				C947AF6F1B58389B005877C2 /* iHurdle */,
 				C947AF891B58389C005877C2 /* iHurdleTests */,
 				C947AF6E1B58389B005877C2 /* Products */,
@@ -81,10 +117,10 @@
 		C947AF6F1B58389B005877C2 /* iHurdle */ = {
 			isa = PBXGroup;
 			children = (
-				C947AF721B58389B005877C2 /* AppDelegate.swift */,
-				C947AF741B58389B005877C2 /* GameScene.sks */,
-				C947AF761B58389B005877C2 /* GameScene.swift */,
-				C947AF781B58389B005877C2 /* GameViewController.swift */,
+				C947AF961B5838F1005877C2 /* AppDelegate.swift */,
+				C947AF981B583907005877C2 /* GameScene.swift */,
+				C947AF9A1B58390E005877C2 /* GameOverScene.swift */,
+				C947AF9C1B583915005877C2 /* GameViewController.swift */,
 				C947AF7A1B58389B005877C2 /* Main.storyboard */,
 				C947AF7D1B58389B005877C2 /* Images.xcassets */,
 				C947AF7F1B58389B005877C2 /* LaunchScreen.xib */,
@@ -96,6 +132,20 @@
 		C947AF701B58389B005877C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C947AF9E1B58392E005877C2 /* prstartk.ttf */,
+				C9C0FDEE1B61A3FC002B6EED /* HealthBar.png */,
+				C947AF9F1B58392E005877C2 /* Jump2.wav */,
+				C947AFA01B58392E005877C2 /* Hit_Hurt2.wav */,
+				C947AFA11B58392E005877C2 /* Game_Over_Sound.wav */,
+				C97BDB451B5C2CEA00578A0E /* box.png */,
+				C947AFA41B58392E005877C2 /* gamebackground.png */,
+				C947AFB41B58829B005877C2 /* Player_Anim_Jump.png */,
+				C947AFB61B5882B7005877C2 /* Anim_Hurdle.png */,
+				C990C9C41B60713E00055225 /* Shoe.png */,
+				C990C9C61B60746500055225 /* Jump.png */,
+				C908100F1B61238E00EBF4EC /* HealthContainer.png */,
+				C990C9C81B60769B00055225 /* HighscoreBox.png */,
+				C947AFA51B58392E005877C2 /* Player.atlas */,
 				C947AF711B58389B005877C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -167,6 +217,12 @@
 				TargetAttributes = {
 					C947AF6C1B58389B005877C2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = EHPBHF3VYQ;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					C947AF851B58389C005877C2 = {
 						CreatedOnToolsVersion = 6.4;
@@ -198,10 +254,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C947AFB71B5882B7005877C2 /* Anim_Hurdle.png in Resources */,
 				C947AF811B58389B005877C2 /* LaunchScreen.xib in Resources */,
+				C947AFA81B58392E005877C2 /* Jump2.wav in Resources */,
+				C947AFAE1B58392E005877C2 /* Player.atlas in Resources */,
+				C947AFB51B58829B005877C2 /* Player_Anim_Jump.png in Resources */,
+				C9C0FDEF1B61A3FC002B6EED /* HealthBar.png in Resources */,
+				C97BDB461B5C2CEA00578A0E /* box.png in Resources */,
+				C947AFA91B58392E005877C2 /* Hit_Hurt2.wav in Resources */,
+				C990C9C71B60746500055225 /* Jump.png in Resources */,
 				C947AF7E1B58389B005877C2 /* Images.xcassets in Resources */,
-				C947AF751B58389B005877C2 /* GameScene.sks in Resources */,
 				C947AF7C1B58389B005877C2 /* Main.storyboard in Resources */,
+				C947AFA71B58392E005877C2 /* prstartk.ttf in Resources */,
+				C990C9C91B60769B00055225 /* HighscoreBox.png in Resources */,
+				C947AFAA1B58392E005877C2 /* Game_Over_Sound.wav in Resources */,
+				C947AFAD1B58392E005877C2 /* gamebackground.png in Resources */,
+				C990C9C51B60713E00055225 /* Shoe.png in Resources */,
+				C90810101B61238E00EBF4EC /* HealthContainer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C947AF771B58389B005877C2 /* GameScene.swift in Sources */,
-				C947AF791B58389B005877C2 /* GameViewController.swift in Sources */,
-				C947AF731B58389B005877C2 /* AppDelegate.swift in Sources */,
+				C947AF9D1B583915005877C2 /* GameViewController.swift in Sources */,
+				C947AF991B583907005877C2 /* GameScene.swift in Sources */,
+				C947AF9B1B58390E005877C2 /* GameOverScene.swift in Sources */,
+				C947AF971B5838F1005877C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iHurdle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -358,9 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iHurdle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -417,6 +496,7 @@
 				C947AF921B58389C005877C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C947AF931B58389C005877C2 /* Build configuration list for PBXNativeTarget "iHurdleTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +505,7 @@
 				C947AF951B58389C005877C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
